@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Task.css";
+import gg from './nd.png';
 
 const EMICalculator = () => {
   const [loanAmount, setLoanAmount] = useState(457000);
@@ -52,12 +53,21 @@ const EMICalculator = () => {
       <div className="emi-result">
         <p className="prh2">Your Monthly EMI</p>
         <h3 className="hdng1">₹{monthlyEMI}</h3>
+        
+        {/* <div className="Breakup-btn"> */}
+        <button className="Breakup-btn">View Breakup</button>
+        {/* </div> */}
       </div>
-
+      
+      <p className="prh4">* Interest rate and loan amount offered may very<br></br>subject toCustomer risk profile</p>
       <button className="loan-button">Interested in Loan</button>
 
-      <p>550+ customers availed the facility</p>
+      <p className="prh3">550+ customers availed the facility</p>
+    <div className="user">
+       <img src={gg} alt="" />
     </div>
+    </div>
+    
   );
 };
 

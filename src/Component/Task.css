@@ -18,10 +18,14 @@
   }
   
   input[type="range"]{
-    width: 100%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    width: 50%;
+    /* height: 15px; */
   }
   span{
-    margin-left: 80%;
+    margin-left: 47%;
   }
   .duration-container button {
     margin: 5px;
@@ -35,9 +39,11 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-bottom: 30px;
   }
  label{
     display: flex;
+    font-weight: bold;
     /* justify-content: start; */
 
  }
@@ -53,7 +59,21 @@
     border:  .01px solid gray;
     border-radius: 10px;
     margin: 15px 0;
-    width: 600px;
+    width: 356px;
+    margin-top: 10px;
+  }
+  .Breakup-btn{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 10px;
+    margin-left: 220px;
+    padding: 10px 15px;
+    border: 1.5px solid skyblue;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor:not-allowed;
   }
   .prh2{
     display: flex;
@@ -68,17 +88,44 @@
     color: #ff5722;
     padding: 15px 80px;
     border: 2px solid #ff5722; 
-    cursor: pointer;
+    cursor:grabbing;
     font-weight: bold;
     font-size: large;
     border-radius: 10px;
+    margin-left: -375px;
+    margin-top: 20px;
   }
   .loan-button:hover{
     background:  #ff5722;
     color: white;
-    transform: scale(1.02);
+    transform: scale(1.00);
   }
   .prh1{
+    display: flex;
     font-size: 18px;
     /* font-weight: bold; */
+  }
+  .prh3{
+    display: flex;
+    /* font-size: 18px; */
+    flex-direction: row;
+    /* justify-content:start; */
+    /* margin-left: -445px; */
+    /* align-items:self-start ; */
+  }
+  .prh4{
+    display: flex;
+  }
+  .prh5{
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+  }
+  .user img{
+    position: absolute;
+    width: 350px;
+    height: 360px;
+    margin-left:8px ;
+    margin-bottom: 20%;
+    margin-top: -360px;
   }
